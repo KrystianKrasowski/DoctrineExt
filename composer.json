@@ -1,0 +1,17 @@
+{
+    "name": "phpals/doctrine-ext",
+    "description": "Extensions for Doctrine 2",
+    "type": "library",
+    "require": {
+        "php": ">=5.5",
+        "doctrine/doctrine-orm-module": ">=0.8.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "DoctrineExt": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
